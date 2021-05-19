@@ -6,15 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Template</title>
     <style>
-        body,
-        html {
+        * {
             margin: 0;
             padding: 0;
-            font-size: 20px;
-            font-family: arial;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
+            box-sizing: border-box;
         }
 
         .container {
@@ -30,6 +25,8 @@
                 "footer footer";
             grid-template-columns: 1fr 1.5fr;
             grid-template-rows: 1fr 1fr 1.3fr;
+            font-size: 1.3rem;
+            text-align: center;
         }
 
         header {
